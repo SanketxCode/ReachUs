@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Personal_Information"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Personal Information"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:padding="10sp"
+        android:fontFamily="@font/font10"
+        />
+
+    <EditText
+            android:background="@drawable/custome_input"
+            android:layout_margin="20sp"
+            android:id="@+id/PI_name"
+            android:drawableTint="#0099ff"
+            android:drawableStart="@drawable/ic_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10sp"/>
+    <EditText
+        android:background="@drawable/custome_input"
+        android:layout_margin="20sp"
+        android:drawableTint="#0099ff"
+        android:drawableStart="@drawable/ic_email"
+        android:id="@+id/PI_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"/>
+
+    <EditText
+        android:id="@+id/PI_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:drawableTint="#0099ff"
+        android:background="@drawable/custome_input"
+        android:drawableStart="@drawable/ic_baseline_phone_24"
+        android:padding="10sp" />
+    <EditText
+        android:id="@+id/enterOtp"
+        android:drawableTint="#0099ff"
+        android:layout_width="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:hint="Enter Otp"
+        android:padding="10sp"
+        android:visibility="gone"/>
+    <Button
+        android:id="@+id/verify"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Verify"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:visibility="gone" />
+    <EditText
+        android:drawableTint="#0099ff"
+        android:id="@+id/PI_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:hint="Choose Age Here"
+        android:textAlignment="center"
+        android:background="@drawable/custome_input"
+        android:drawableStart="@drawable/ic_baseline_calendar_today_24"
+        android:padding="10sp" />
+    <Button
+        android:id="@+id/verifyPhoneNo"
+        android:backgroundTint="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Verify Phone No"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"/>
+    <Button
+        android:backgroundTint="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Changes"
+        android:layout_gravity="center"
+        android:id="@+id/submit"
+        />
+
+</LinearLayout>
+</ScrollView>

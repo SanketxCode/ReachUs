@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Be Insider"
+                android:fontFamily="@font/font10"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/be_insider"
+                android:drawableEnd="@drawable/arrow_right"
+                android:drawableTint="@color/purple_700"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Be a Service Provider"
+                android:fontFamily="@font/font11"
+                android:textSize="15dp"
+                android:background="@drawable/border"
+                android:padding="7dp"
+                android:layout_margin="5dp"/>
+            <TextView
+                android:id="@+id/insiderOrders"
+                android:drawableEnd="@drawable/arrow_right"
+                android:drawableTint="@color/purple_700"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your Orders"
+                android:fontFamily="@font/font11"
+                android:textSize="15dp"
+                android:background="@drawable/border"
+                android:padding="7dp"
+                android:layout_margin="5dp"
+                android:visibility="gone"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Orders"
+                android:fontFamily="@font/font10"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/pastOrders"
+                android:drawableEnd="@drawable/arrow_right"
+                android:drawableTint="@color/purple_700"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Past Orders"
+                android:fontFamily="@font/font11"
+                android:textSize="15dp"
+                android:background="@drawable/border"
+                android:padding="7dp"
+                android:layout_margin="5dp"/>
+            <TextView
+                android:id="@+id/pastServicesBooking"
+                android:drawableEnd="@drawable/arrow_right"
+                android:drawableTint="@color/purple_700"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Past Service Bookings"
+                android:fontFamily="@font/font11"
+                android:textSize="15dp"
+                android:background="@drawable/border"
+                android:padding="7dp"
+                android:layout_margin="5dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Account and Login"
+                android:fontFamily="@font/font10"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/loginandsecurity"
+                android:drawableEnd="@drawable/arrow_right"
+                android:drawableTint="@color/purple_700"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Login and Security"
+                android:fontFamily="@font/font11"
+                android:textSize="15dp"
+                android:background="@drawable/border"
+                android:padding="7dp"
+                android:layout_margin="5dp"/>
+            <TextView
+                android:id="@+id/yourAddresses"
+                android:drawableEnd="@drawable/arrow_right"
+                android:drawableTint="@color/purple_700"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your Address"
+                android:fontFamily="@font/font11"
+                android:textSize="15dp"
+                android:background="@drawable/border"
+                android:padding="7dp"
+                android:layout_margin="5dp"/>
+            <TextView
+
+                 android:id="@+id/personalinfo"
+                android:drawableEnd="@drawable/arrow_right"
+                android:drawableTint="@color/purple_700"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Personal Information"
+                android:fontFamily="@font/font11"
+                android:textSize="15dp"
+                android:background="@drawable/border"
+                android:padding="7dp"
+                android:layout_margin="5dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About Us"
+                android:fontFamily="@font/font10"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/aboutus"
+                android:drawableEnd="@drawable/arrow_right"
+                android:drawableTint="@color/purple_700"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About Us"
+                android:fontFamily="@font/font11"
+                android:textSize="15dp"
+                android:background="@drawable/border"
+                android:padding="7dp"
+                android:layout_margin="5dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact us"
+            android:fontFamily="@font/font10"
+            android:textColor="@color/black"
+            android:layout_marginLeft="5dp"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/contactus"
+            android:drawableEnd="@drawable/arrow_right"
+            android:drawableTint="@color/purple_700"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact us"
+            android:fontFamily="@font/font11"
+            android:textSize="15dp"
+            android:background="@drawable/border"
+            android:padding="7dp"
+            android:layout_margin="5dp"/>
+    </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

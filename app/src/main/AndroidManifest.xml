@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.reachus">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ReachUs">
+        <activity android:name=".pastServiceBookings"></activity>
+        <activity android:name=".pastBookings" />
+        <activity android:name=".millServices" />
+        <activity android:name=".LaundryServices" />
+        <activity android:name=".reportService" />
+        <activity android:name=".orderBookingDetails" />
+        <activity android:name=".Personal_Information" />
+        <activity android:name=".bookingDetails" />
+        <activity android:name=".serviceBookings" />
+        <activity android:name=".inputUserAddress" />
+        <activity android:name=".userBookings" />
+        <activity android:name=".payForService" />
+        <activity android:name=".timeForService" />
+        <activity android:name=".BookService" />
+        <activity android:name=".plumberServices" />
+        <activity android:name=".allServices" />
+        <activity android:name=".Service_Provider_finished" />
+        <activity android:name=".Service_Provider_step_4" />
+        <activity android:name=".Service_Provider_Step_2" />
+        <activity android:name=".Service_provider_step_3" />
+        <activity android:name=".complete_profile" />
+        <activity android:name=".carTasks" />
+        <activity android:name=".maidTask" />
+        <activity android:name=".Service_Provider_Info" />
+        <activity android:name=".cleaningTask" />
+        <activity android:name=".repairingTask" />
+        <activity android:name=".Splash_Screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Profile" />
+        <activity android:name=".Forgot_password" />
+        <activity android:name=".Login_page" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".registration_page" />
+        <activity android:name=".loginandesecurity" />
+    </application>
+
+</manifest>
